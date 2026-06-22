@@ -1014,18 +1014,29 @@ window.open(
         </div>
     </section>
 
-    <!-- COBERTURA -->
+  <!-- COBERTURA -->
     <section class="section cobertura">
         <div class="section-label">Dónde estamos</div>
         <h2 class="section-title">Zona de cobertura</h2>
         <div class="section-divider"></div>
         <p class="section-text">Cubrimos Rosario y toda el área metropolitana. Consultá si llegamos a tu zona.</p>
         
-        <div class="mapa-placeholder">
-            <div style="font-size: 40px;">🗺️</div>
-            <span>Rosario y alrededores</span>
+        <div style="max-width: 700px; margin: 30px auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.12);">
+            <iframe 
+                src="https://maps.google.com/maps?q=Rosario%2C+Santa+Fe%2C+Argentina&t=&z=11&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="350" 
+                style="border:0; display:block;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-    </section>
+
+        <p class="section-text" style="margin-top: 10px;">
+            ¿Estás fuera de la zona? <strong>Consultanos por servicios en el resto del país.</strong>
+        </p>
+     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
